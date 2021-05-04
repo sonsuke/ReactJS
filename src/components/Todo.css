@@ -1,0 +1,84 @@
+.wrap-todo {
+  background-color: rgba(228, 215, 215, 0.527);
+  width: 100%;
+  padding: 4rem;
+  min-height: 100vh;
+}
+.todo {
+  width: 50rem;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 5rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 4px 9px 15px 3px rgb(134 122 122);
+}
+.todo--input {
+  display: flex;
+  align-items: center;
+}
+.todo--input input {
+  margin-left: 2rem;
+  outline: none;
+  height: 4rem;
+  font-size: 2.8rem;
+  border: none;
+}
+.todo--input i {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #c9c6c4;
+}
+.todo-list {
+  margin-top: 3rem;
+}
+.delete {
+  cursor: pointer;
+  opacity: 0;
+  color: red;
+}
+
+.todo-item {
+  display: flex;
+  cursor: default;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 1rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  border: 1px solid rgb(178, 216, 9);
+  width: 100%;
+}
+.todo-item span {
+  flex: 1;
+  font-size: 2.5rem;
+}
+.todo-item:hover .delete {
+  opacity: 1;
+  transition: all 0.9s linear;
+}
+.todo_icon {
+  width: 2.5rem;
+}
+.todo__input--edit {
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+}
+
+.todo__menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+.todo__menu a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #c9c6c4;
+  border-radius: 0.5rem;
+}
